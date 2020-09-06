@@ -2,9 +2,9 @@ const butt = document.querySelector('.butt');
 const result = document.getElementById('result');
 
 function* createIdGenerator(){
-    let i = 1;
+    let id = 1;
     while(true)
-    yield i++;
+    yield id++;
 }
 
 const idGenerator = createIdGenerator();
